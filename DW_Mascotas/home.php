@@ -3,7 +3,7 @@ session_start();
 $usser = $_SESSION['usser'];
 if($usser == null || $usser = ''){
     echo "<script>alert('Usted no tiene autorización');</script>";
-    //header("Location:login.php");
+    header("Location:login.php");
     //die();
 }
 $usser = $_SESSION['usser'];
@@ -16,8 +16,7 @@ $usser = $_SESSION['usser'];
 <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/tech/imagen5.jpg&quot;);color:rgba(80, 80, 80, 0.50);">
             <div class="text">
                 <h2>¡Bienvenido <?php echo $usser?>!</h2>
-                <p>Ahora puedes registrar a un nuevo perrito o consultar por alguno de los ya registrados en el sistema</p>
-                <button class="btn btn-outline-light btn-lg" type="button">Learn More</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
             </div>
         </section>
         </main>

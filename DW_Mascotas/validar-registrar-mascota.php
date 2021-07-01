@@ -42,10 +42,15 @@ if(isset($_POST['registrar_perro'])){
     $res = mysqli_query($con, $query);
 
     if(!$res){
-        die("Query faileeed");
+        ?> 
+		    <h3 class="bad">¡Ups ha ocurrido un error!</h3>
+		<?php
+        die("");
     }
 
-    echo "GUARDADO";
+    ?>
+        <h3 class="ok">¡Mascota registrada correctamente!</h3>
+    <?php
 
 }
 ?>

@@ -16,7 +16,7 @@ $usser = $_SESSION['usser'];
 <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/tech/imagen5.jpg&quot;);color:rgba(80, 80, 80, 0.50);">
             <div class="text">
                 <h2>¡Bienvenido <?php echo $usser?>!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                <p>Ahora puedes registrar a un nuevo perrito o consultar por alguno de los ya registrados en el sistema</p>
                 <button class="btn btn-outline-light btn-lg" type="button">Learn More</button>
             </div>
         </section>

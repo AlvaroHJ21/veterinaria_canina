@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>

@@ -2,7 +2,10 @@
 <?php include("includes/navbar.php"); ?>
     <main class="page login-page">
         <section class="clean-block clean-form dark">
-            <div class="container">
+            <div class="img_container">
+                <img src="assets/img/scenery/perros2.jpg" alt="">
+            </div>    
+            <div class="container formulario">
                 <div class="block-heading">
                     <h2 class="text-info">Log In</h2>
                 </div>

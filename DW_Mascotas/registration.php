@@ -3,7 +3,10 @@
 
     <main class="page registration-page">
         <section class="clean-block clean-form dark">
-            <div class="container">
+            <div class="img_container">
+                <img src="assets/img/scenery/perros.jpg" alt="">
+            </div>
+            <div class="container formulario">
                 <div class="block-heading">
                     <h2 class="text-info">Registro</h2>
                 </div>
@@ -24,6 +27,7 @@
                     <?php include("registrar-usuario.php"); ?>
                 </form>
             </div>
+            
         </section>
     </main>
 <?php include("includes/footer.php"); ?>
